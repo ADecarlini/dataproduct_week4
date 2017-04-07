@@ -1,0 +1,43 @@
+---
+title: "Week4 project Documentation"
+author: "TTa"
+date: "7 de abril de 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Week4 Project Documentation
+
+### Objective of the App  
+
+This app receives a word and calculates the perecentage of vowels it contains. It also show a pie-chart with that percentage, and the colors of the chart can be modified
+
+## input parameters
+
+```{r fig, out.width = "600px",echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("./1.png")
+ grid.raster(img)
+```
+
+
+1. Select the color for vowel percentage
+2. add one word
+3. press "analyse now"
+
+## output
+
+```{r fig2, out.width = "600px",echo=FALSE}
+library(png)
+library(grid)
+img <- readPNG("./2.png")
+ grid.raster(img)
+```
+
+It will be shown the percentage of vowels in the given word. if you change the color, you will have to press "analyse now" again.
+
+## thanks for watching
