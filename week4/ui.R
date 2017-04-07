@@ -26,7 +26,7 @@ shinyUI(fluidPage(
     textInput("texttoanalyse","Insert the word to analyse:"),
     submitButton(text="analyse now"),
     h2(""),
-    a("For online help, clik here and see the Slidify manual", href="http://www.google.com")
+    a("For online help, clik here and see the Slidify manual", href="https://adecarlini.github.io/dataproduct_week4/Week4_proj_documentation.html#1")
     ),
     
     
